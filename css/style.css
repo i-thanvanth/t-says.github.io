@@ -122,7 +122,7 @@ ul li { list-style: none;display: inline;}
     background-image: linear-gradient(to bottom, #accbee 0%, #e7f0fd 100%);
     margin: 15px;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 black;
     text-align: center;
     color: black;
     font-family: 'Rubik', sans-serif;
