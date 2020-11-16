@@ -113,25 +113,24 @@ ul li { list-style: none;display: inline;}
 }
 
 .hr-banner {
-    border: 1px solid #457EAC;
+    border: 1px double #457EAC;
     border-radius: 5px;
     width: 50%;
     margin: 0 auto;
 }
 .whoiam{
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-
+    background-image: linear-gradient(to bottom, #accbee 0%, #e7f0fd 100%);
     margin: 15px;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
     text-align: center;
     color: black;
     font-family: 'Rubik', sans-serif;
     background-position: center;
     max-width: 100%;
+    background-repeat: no-repeat;
     
-}
+}   
 
 .whoiam__content{
     font-size: x-large;
@@ -148,9 +147,10 @@ ul li { list-style: none;display: inline;}
 }
 
 .skills{
-    background-color: #FFDEE9;
+    /*background-color: #FFDEE9;
     background-image: linear-gradient(245deg, #FFDEE9 0%, #B5FFFC 100%);
-    text-align: left;
+    text-align: left;*/
+    background-image: linear-gradient(to bottom, #accbee 0%, #e7f0fd 100%);
     padding:20px !important;
     color:black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -160,13 +160,13 @@ ul li { list-style: none;display: inline;}
 
 .math{
     width: 90%;
-    background-color: #0D324D;
+    background-color: #0A2472;
     border-radius: 10px;
 }
 
 .humor{
     width: 95%;
-    background-color: #0D324D;
+    background-color: #0A2472;
     border-radius: 10px;
 }
 
@@ -189,19 +189,19 @@ ul li { list-style: none;display: inline;}
 
 .physics {
     width: 85%;
-    background-color: #0D324D;
+    background-color: #0A2472;
     border-radius: 10px;
 }
 
 .coding{
     width: 85%;
-    background-color: #0D324D;
+    background-color: #0A2472;
     border-radius: 10px;
 }
 
 .chemistry{
     width: 75%;
-    background-color: #0D324D;
+    background-color: #0A2472;
     border-radius: 10px;
 }
 .navigation{
