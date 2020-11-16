@@ -132,6 +132,7 @@ ul li { list-style: none;display: inline;}
     background-image: url('/img/about-me.jpg') !important;
     background-position: center;
     max-width: 100%;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 .whoiam__content{
