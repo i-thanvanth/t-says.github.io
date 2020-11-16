@@ -1,13 +1,7 @@
 
 * {box-sizing:border-box;
    margin: 0; padding: 0;}
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-@-ms-viewport {
-  width: device-width ;
-}   
+
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: #8EC5FC;
@@ -79,7 +73,7 @@ ul li { list-style: none;display: inline;}
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     background-position: top;
     max-width: 100%;
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     padding: 0;
     background-repeat: no-repeat;
@@ -147,7 +141,7 @@ ul li { list-style: none;display: inline;}
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     column-count: auto;
-    width: 100%;
+    width: auto;
     column-gap: 40px;
     column-rule: 1px solid #011627;
     text-align: justify;
