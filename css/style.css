@@ -47,7 +47,7 @@ body::-webkit-scrollbar-thumb {background-color:#A0A5A6;border-radius:16px;borde
     padding: 10px;
 }
 .navigation__items {
-    font-size: large;
+    font-size: medium;
     bottom: 3em;
     font-weight: bold;
 }
