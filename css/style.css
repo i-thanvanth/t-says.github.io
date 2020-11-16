@@ -1,6 +1,13 @@
 
 * {box-sizing:border-box;
    margin: 0; padding: 0;}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}   
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: #8EC5FC;
@@ -25,7 +32,8 @@ body::-webkit-scrollbar-thumb {background-color:#A0A5A6;border-radius:16px;borde
 .navigation {
     position: relative;
     display: flex;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-family: 'Rubik', sans-serif;
     border-right: none;
     white-space: nowrap;
@@ -85,7 +93,7 @@ ul li { list-style: none;display: inline;}
 }
 .banner h1{
     text-align: center;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: bold;
     position: relative;
     padding: 0px;
@@ -96,9 +104,10 @@ ul li { list-style: none;display: inline;}
 }
 .section__subtitle {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Caveat', cursive;
     opacity: 1;
 }
