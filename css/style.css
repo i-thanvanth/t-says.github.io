@@ -1,0 +1,249 @@
+
+* {box-sizing:border-box;
+   margin: 0; padding: 0;}
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-image: url('/img/about-me.jpg')
+
+
+
+}
+section div  {
+    padding:1px;
+}
+body::-webkit-scrollbar       {background-color:#CCE6F4;width:16px}
+body::-webkit-scrollbar-track {background-color:#CCE6F4}
+body::-webkit-scrollbar-thumb {background-color:#A0A5A6;border-radius:16px;border:4px solid #CCE6F4}
+
+.navigation_list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-align: left;
+}
+
+
+.navigation {
+    position: relative;
+    display: flex;
+    padding: 15px;
+    font-family: 'Rubik', sans-serif;
+    border-right: none;
+    white-space: nowrap;
+    margin: 0%;
+}
+.logo{
+    top: 10px;
+    max-width:25px;
+    margin: 0;
+}
+
+.navigation__logo{
+    font-family: 'Pacifico',cursive;
+}
+.navigation__logo:hover{
+    font-size: 1.5em;
+    padding: 10px;
+}
+.navigation__items {
+    padding: 10px;
+    font-size: large;
+    bottom: 3em;
+    font-weight: bold;
+}
+.navigation__items a {
+     text-decoration: none;
+     color: white;
+}
+
+.navigation__items:hover{
+    font-size: 1.5em;
+}
+
+
+ul {display: inline;} 
+ul li { list-style: none;display: inline;}
+
+
+.home {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-repeat: no-repeat;
+    
+}
+.scroll--banner{
+    padding: 20px;
+    text-align: center;
+}
+.scroll--banner:hover {
+    font-size: 1.5em;
+}
+.banner h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    position: relative;
+    padding: 0px;
+    padding-bottom: 10px;
+    font-family: 'Caveat', cursive;
+    white-space: nowrap;
+}
+.section__subtitle {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 50px;
+    padding-bottom: 1rem;
+    font-family: 'Caveat', cursive;
+}
+.section__subtitle--scroll{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 30px;
+    padding-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hr-banner {
+    border: 2px solid #9599E2;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+.whoiam{
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    background-image: url('/img/about-me.jpg') !important;
+    background-position: center;
+    max-width: 100%;
+}
+
+.whoiam__content{
+    font-size: x-large;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    column-count: auto;
+    width: 100%;
+  column-gap: 40px;
+  column-rule: 1px solid #011627;
+  text-align: justify;
+  padding: 20px;
+
+}
+
+.skills{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(245deg, #FFDEE9 0%, #B5FFFC 100%);
+    text-align: left;
+    padding:20px !important;
+    color:black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px !important;
+    font-family: 'Rubik', sans-serif;
+}
+
+.math{
+    width: 90%;
+    background-color: #0D324D;
+    border-radius: 10px;
+}
+
+.humor{
+    width: 95%;
+    background-color: #0D324D;
+    border-radius: 10px;
+}
+
+
+.skill__elements {
+
+    color: white; 
+    text-align: right;
+    font-size: large;
+    padding: 10px;
+}
+
+.skill__bar--subs {
+    font-size: x-large;
+    font-weight: 700;
+    line-height: 200%;
+    bottom: 5em;;
+    font-family: 'Caveat', cursive;
+}
+
+.physics {
+    width: 85%;
+    background-color: #0D324D;
+    border-radius: 10px;
+}
+
+.coding{
+    width: 85%;
+    background-color: #0D324D;
+    border-radius: 10px;
+}
+
+.chemistry{
+    width: 75%;
+    background-color: #0D324D;
+    border-radius: 10px;
+}
+.navigation{
+    background-color: #1F2041;
+}
+footer {
+    background-color: #1F2041;
+    color: white;
+}
+
+
+.contacts ul{
+    display: inline;
+    list-style-type: none;
+
+}
+
+.contacts {
+     padding: 20px;
+     text-align: center;
+}
+
+.social__list__link{
+    padding: 10px;
+}
+
+
+.social__list--item:hover{
+    padding: 15px;
+}
+
+.social__list--item:hover  i {
+    transform: scale(1.5);
+}
+
+.social__list {
+    font-family: 'Rubik', sans-serif;
+}
+.banner__img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer-text {
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+}
