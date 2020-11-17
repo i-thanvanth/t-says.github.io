@@ -1,11 +1,96 @@
 
 * {box-sizing:border-box;
    margin: 0; padding: 0;}
- 
+
+
 body {
     font-family: 'Source Code Pro', monospace;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background: #42275a; /* fallback for old browsers */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2041;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.website-logo {
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.website-logo:hover{
+    font-size: 2rem;
+}
+.navbar-elements ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-elements li {
+    list-style: none;
+}
+.navbar-elements a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.navbar-elements li:hover{
+    font-size: 1.2rem;
+}
+.hamburger-menu {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height:21px;
+}
+.hamburger-menu .bar {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .hamburger-menu{
+        display: flex;
+    }
+    .navbar-elements{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-elements ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-elements li {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .navbar-elements li:hover {
+        font-size: 1.5rem;
+    }
+    .navbar-elements li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-elements.active{
+        display: flex;
+    }
 }
 section div  {
     padding:1px;
@@ -14,63 +99,14 @@ body::-webkit-scrollbar       {background-color:#CCE6F4;width:16px}
 body::-webkit-scrollbar-track {background-color:#CCE6F4}
 body::-webkit-scrollbar-thumb {background-color:#A0A5A6;border-radius:16px;border:4px solid #CCE6F4}
 
-.navigation_list ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    text-align: left;
-}
-
-
-.navigation {
-    position: relative;
-    display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-    border-right: none;
-    white-space: nowrap;
-    margin: 0%;
-}
-.logo{
-    top: 10px;
-    max-width:25px;
-    margin: 0;
-}
-
-.navigation__logo{
-    font-family: 'Pacifico',cursive;
-}
-.navigation__logo:hover{
-    font-size: 1.5em;
-    padding: 10px;
-}
-.navigation__items {
-    padding: 15px;
-    font-size: large;
-    bottom: 3em;
-    font-weight: bold;
-}
-.navigation__items a {
-     text-decoration: none;
-     color: white;
-}
-
-.navigation__items:hover{
-    font-size: 1.5em;
-}
-
-
 ul {display: inline;} 
 ul li { list-style: none;display: inline;}
 
 
 .home {
-    background-color: #8EC5FC;
-    background-image: url('/img/banner.jpg');
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background:#EFDCF9;
+    /*#a178c7 #ffc0cb 120°*/
+
     background-position: top;
     max-width: 100%;
     width: auto;
@@ -104,6 +140,7 @@ ul li { list-style: none;display: inline;}
     padding-bottom: 50px;
     font-family: 'Caveat', cursive;
     opacity: 1;
+    line-height: 50px;
 }
 .section__subtitle--scroll{
     text-align: center;
@@ -121,8 +158,10 @@ ul li { list-style: none;display: inline;}
     width: 50%;
     margin: 0 auto;
 }
-.whoiam{
-    background-image: linear-gradient(to bottom, #accbee 0%, #e7f0fd 100%);
+.whoiam
+{ 
+    background-image: linear-gradient(147deg, #e5eaf5 0%, #d0bdf4 100%);
+
     margin: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -153,7 +192,7 @@ ul li { list-style: none;display: inline;}
     /*background-color: #FFDEE9;
     background-image: linear-gradient(245deg, #FFDEE9 0%, #B5FFFC 100%);
     text-align: left;*/
-    background-image: linear-gradient(to bottom, #accbee 0%, #e7f0fd 100%);
+    background-image: linear-gradient(147deg, #e5eaf5 0%, #d0bdf4 100%);
     padding:20px !important;
     color:black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -207,9 +246,7 @@ ul li { list-style: none;display: inline;}
     background-color: #0A2472;
     border-radius: 10px;
 }
-.navigation{
-    background-color: #1F2041;
-}
+
 footer {
     background-color: #1F2041;
     color: white;

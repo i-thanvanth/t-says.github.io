@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <script src="script.js" defer></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -29,15 +30,22 @@
         
         <!--    header_tag   -->
         <header>
-            <nav class="navigation">
-              <ul class="navigation__list">
-                 <li class="navigation__items navigation__logo"><a href="#home">T</a></li>
-                 <li class="navigation__items"><a href="#home">Home</a></li>
-                 <li class="navigation__items"><a href="#whoiam">Who I am</a></li>
-                 <li class="navigation__items"><a href="#skills">Skills</a></li>
-                 <li class="navigation__items navigation__contact"><a href="#contacts">Contact</a></li>
-              </ul>
-           </nav>
+            <nav class="navbar">
+                <div class="website-logo">T</div>
+                <a href="#home" class="hamburger-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-elements">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#whoiam">Who I am</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <!--    End of header_tag   -->
 
@@ -46,12 +54,13 @@
         <section class="home" id ="home">
          <!--<img src="/img/hero.png" class="banner__img">-->
          <div class="banner">
-            <h1>Welcome to my site!</h1>
+            <h1>Welcome to my site! </h1>
             <hr class="hr-banner">
             <p class="section__subtitle">I am Thanvanth, a sassy teen with a knack for science and computers!</p>
             <hr class="hr-banner">
-            <p class="section__subtitle--scroll">scroll down</p>
-            <p href="#whoiam" class="scroll--banner"><a href="#whoiam"><i class="fas fa-chevron-down fa-2x" style="color:black"></i></a></i></p>
+            <p class="section__subtitle--scroll">scroll down </p>
+            <!--<i class="fas fa-meteor"></i>-->
+            <p href="#whoiam" class="scroll--banner"><a href="#whoiam"><i class="fas fa-meteor fa-2x" style="color:black"></i></a></i></p>
          </div>
 
         </section>
@@ -60,7 +69,7 @@
 
         <section class="whoiam" id="whoiam">
             <hr class="hr-banner">
-            <h1 class="section__title section__title--whoiam">Who I am...</h1>
+            <h1 class="section__title section__title--whoiam">Who I am <i class="fas fa-user-astronaut"></i> ...</h1>
             <div class="whoiam__content">
                 Hello! I am Thanvanth, but I'd like to call myself T! T's a clumsy teen with a good sense of humor and love for physics and computers. I am sure that some of you might know that from the above banner
                 but I just wanted to repeat it, just in case you weren't paying attention.
@@ -71,7 +80,7 @@
                 T being flexible, tries to be imaginative and strives to get the work done using his versatile 
                 skill-set at the same time tries to understand concepts and does it with passion. 
                 He's an astute person who's driven to accomplish and tries to improve the morale
-                 of people around him by being cordial and respectful to the members of his team.
+                of people around him by being cordial and respectful to the members of his team.
             </div>
             <hr class="hr-banner">
         </section>
@@ -80,7 +89,7 @@
 
         <section class="skills" id="skills">
             <hr class="hr-banner">
-            <h1 class="section__title section__title--skills">Skills:</h1>
+            <h1 class="section__title section__title--skills"><i class="fas fa-bolt"></i> Skills:</h1>
             <p class="skill__bar--subs"><i class="fas fa-calculator"></i> Math:</p>
             <div class="container"><div class="skill__elements math">90%</div></div>
             <br>
@@ -109,7 +118,8 @@
                 <li class="social__list--item"><a href="https://confessionsoft.blogspot.com" class="social__list__link" target="_blank"><i class="fas fa-blog fa-2x" style="color:white"></i></a></u1></li>
             </ul>
             <br>
-            <p class="footer-text">Powered by T's code and Github-pages</p>
+            <p class="footer-text">... Powered by T's code and Github-pages ...</p>
+            <p class="footer-text"> <i class="far fa-hand-peace"></i> </p>
         </footer>
 
         
