@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Source Code Pro', monospace;
-    background: #42275a; /* fallback for old browsers */
+    background: #dfeff0;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2041;
+    background-color: #295e6a;
     color: white;
     font-family: 'Rubik', sans-serif;
 }
@@ -130,9 +130,7 @@ ul li { list-style: none;display: inline;}
 
 
 .home {
-    background:#EFDCF9;
-    /*#a178c7 #ffc0cb 120°*/
-
+    background:#cefff1;
     background-position: top;
     max-width: 100%;
     width: auto;
@@ -186,8 +184,7 @@ ul li { list-style: none;display: inline;}
 }
 .whoiam
 { 
-    background-image: linear-gradient(147deg, #e5eaf5 0%, #d0bdf4 100%);
-
+    background-color:#c2faf1;
     margin: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -218,7 +215,7 @@ ul li { list-style: none;display: inline;}
     /*background-color: #FFDEE9;
     background-image: linear-gradient(245deg, #FFDEE9 0%, #B5FFFC 100%);
     text-align: left;*/
-    background-image: linear-gradient(147deg, #e5eaf5 0%, #d0bdf4 100%);
+    background-color: #c2faf1;
     padding:20px !important;
     color:black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -228,13 +225,13 @@ ul li { list-style: none;display: inline;}
 
 .math{
     width: 90%;
-    background-color: #0A2472;
+    background-color: #1f4287;
     border-radius: 10px;
 }
 
 .humor{
     width: 95%;
-    background-color: #0A2472;
+    background-color: #1f4287;
     border-radius: 10px;
 }
 
@@ -257,24 +254,24 @@ ul li { list-style: none;display: inline;}
 
 .physics {
     width: 85%;
-    background-color: #0A2472;
+    background-color: #1f4287;
     border-radius: 10px;
 }
 
 .coding{
     width: 85%;
-    background-color: #0A2472;
+    background-color: #1f4287;
     border-radius: 10px;
 }
 
 .chemistry{
     width: 75%;
-    background-color: #0A2472;
+    background-color: #1f4287;
     border-radius: 10px;
 }
 
 footer {
-    background-color: #1F2041;
+    background-color:#295e6a;
     color: white;
 }
 
