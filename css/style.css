@@ -111,6 +111,7 @@ body {
     .read-more:target {
         display: block;
     }
+
 }    
 section div  {
     padding:1px;
