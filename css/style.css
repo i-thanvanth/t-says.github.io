@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Source Code Pro', monospace;
-    background: #dfeff0;
+    background: white;
     margin: 0;
     padding: 0;
 }
@@ -18,11 +18,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #295e6a;
+    background-color: black;
     color: white;
     font-family: 'Rubik', sans-serif;
 }
-
 .website-logo {
     font-size: 1.5rem;
     margin: .5rem;
@@ -130,7 +129,11 @@ ul li { list-style: none;display: inline;}
 
 
 .home {
-    background:#cefff1;
+    background-image:url('../img/banner-reducedopacity.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     background-position: top;
     max-width: 100%;
     width: auto;
@@ -184,7 +187,7 @@ ul li { list-style: none;display: inline;}
 }
 .whoiam
 { 
-    background-color:#c2faf1;
+    background-color:#E5ECE9;
     margin: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -215,7 +218,7 @@ ul li { list-style: none;display: inline;}
     /*background-color: #FFDEE9;
     background-image: linear-gradient(245deg, #FFDEE9 0%, #B5FFFC 100%);
     text-align: left;*/
-    background-color: #c2faf1;
+    background-color:#E5ECE9;
     padding:20px !important;
     color:black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -271,7 +274,7 @@ ul li { list-style: none;display: inline;}
 }
 
 footer {
-    background-color:#295e6a;
+    background-color:black;
     color: white;
 }
 
