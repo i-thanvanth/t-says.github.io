@@ -45,9 +45,10 @@ body {
   color: white;
   padding: 1rem;
   display: block;
-}
-.navbar-elements li:hover {
   font-size: 1.2rem;
+}
+.navbar-elements a:hover {
+  color: #c0c0c0;
 }
 .hamburger-menu {
   position: absolute;
@@ -172,6 +173,7 @@ ul li {
 .scroll--banner:hover {
   font-size: 1.5em;
 }
+
 .banner h1 {
   text-align: center;
   font-size: 40px;
@@ -313,11 +315,13 @@ footer {
 }
 
 .social__list--item:hover {
+  color: #c0c0c0;
   padding: 15px;
 }
 
 .social__list--item:hover i {
   transform: scale(1.5);
+  color: #c0c0c0 !important;
 }
 
 .social__list {
@@ -389,8 +393,12 @@ footer {
   color: black;
 }
 
+.home--gallery {
+  padding-bottom: 9.5rem;
+}
 .home--gallery img {
   padding: 5px;
   float: left;
   width: 50%;
+  height: 100%;
 }
