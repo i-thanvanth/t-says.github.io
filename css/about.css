@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    
+}
+
+.navbar-elements ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: black !important;
+ }
+.navbar-elements li {
+    list-style: none;
+    display: inline !important;
+ }
+.navbar-elements a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    display: block;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    border: white !important;
+  }
+.navbar-elements a:hover {
+    color: #2D3142  ;
+    border-bottom:1px black solid !important;
+  }
+.hbm{
+  display: none;
+}
+.body__about {
+  display: flex;
+  height: 100vh;
+}
+.img img {
+  width: 100%;
+  align-content: space-around ;
+}
+
+.img {
+  margin-top: 22vh;
+  width: 200rem;
+  flex-grow: 2;
+  margin-left: 2vh;
+}
+.img:hover img {
+  border-style: groove;
+  border-radius: 8px;
+}
+.text {
+  margin-top: 15vh;
+  font-size: x-large;
+}
+
+.icons {
+  padding: 10px;
+}
+.icons a {
+  padding-left: 10px;
+  font-size: medium;
+  color: black;
+}
+.icons i {
+  transition: 0.3s;
+}
+.icons i:hover{
+  color: black;
+  border-bottom: 1px solid black;
+  padding: 05px;
+}
+.text h1 {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.text p {
+  font-family: 'Oxygen', sans-serif;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width:600px) {
+
+ .body__about {
+  display: flex;
+  flex-direction: column;
+}
+.img img {
+  width: 100%;
+  max-width: 200px;
+  margin-top: -10vh;
+ .body__about{
+   fl
+ }omargin-left: auto;
+  height: auto;
+  border: none;
+}
+.img {
+  width: 50%;
+  margin: auto;
+  margin-top: 15vh;
+}
+.text {
+  margin: 2vh;
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+.icons {
+  padding: 10px;
+}
+.icons a {
+  padding-left: 10px;
+  font-size: medium;
+  color: black;
+}
+}
