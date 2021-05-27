@@ -122,7 +122,7 @@ body {
     width: 50%;
     margin: auto;
     margin-top: 5vh;
-    margin-bottom: 2vh;
+    margin-bottom: 0.25px;
   }
   .text {
     margin: 2vh;
